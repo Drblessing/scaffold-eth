@@ -1,0 +1,11 @@
+{
+  "build": {
+    "solidityToolkit": "hardhat",
+    "reactBuild": "vite"
+  },
+  "runtime": {
+    "targetNetworks": [
+      "localhost"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@scaffold-eth/commands",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "scaffold": "ts-node --project tsconfig.json ./src/commands/scaffoldCommands.ts"
+  },
+  "devDependencies": {
+    "@scaffold-eth/common": "0.0.0",
+    "@swc/core": "^1.2.224",
+    "@swc/helpers": "^0.4.3",
+    "@types/edit-json-file": "^1.7.0",
+    "@types/shelljs": "^0",
+    "chalk": "^4.1.2",
+    "cross-env": "^7.0.3",
+    "edit-json-file": "^1.7.0",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-kit": "^0.15.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "shx": "^0.3.4",
+    "ts-invariant": "^0.10.3",
+    "ts-node": "^10.9.1",
+    "ts-toolbelt": "^9.6.0",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "shelljs": "^0.8.5",
+    "shx": "^0.3.4",
+    "zod": "^3.17.10"
+  }
+}
